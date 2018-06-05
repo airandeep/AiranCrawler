@@ -62,8 +62,8 @@ public class Zhihu {
         return "问题为:"+title+"\n问题描述为:"+titleDescription+
                 "\n地址为:"+zhihuUrl+"\n部分回答者链接为:"+answers+"\n\n\n";
     }
-    ////
-    ///fhddskhfkjshfhdskfh
+
+
     boolean getRealUrl(String url)
     {
         String regex="question/(.+?)/";
